@@ -1,0 +1,72 @@
+#include <stdio.h>
+
+enter an operator(+,-,*,/):enter two number: 12, 15
+
+int main() {
+
+invalid operator!please use +,-,*,or/.
+
+
+float num1,num2, result;
+
+
+char op;
+
+T
+
+printf("simple calculator using switch - case\n");
+
+=== Code Execution Successful ===
+
+printf(" ----
+
+----- \n"):
+printf("enter an operator(+,-,*, /):");
+
+
+scanf("%c",op);
+printf("enter two number:");
+scanf("%f%f",&num1,&num2) ;
+
+
+switch (op)
+
+C
+
+
+case '+":
+
+result = num1+num2;
+
+printf("result=%.2f\n", result):
+break:
+case '-':
+
+2E
+
+result = num1-num2;
+rintf("result=%.2f\n", result);
+break;
+case *
+result = num1*num2;
+
+
+printf("result=%.2f\n", result);
+
+break;
+case '/':
+
+
+if(num2 != 0)
+
+printf("result=%.2f\n",num1/num2);
+
+else
+printf("error!division by zero is not allowed. \n");
+
+break
+default:
+
+printf("invalid operator!please use +,-,*,or/. \n");
+
+return 0;
