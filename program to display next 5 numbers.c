@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int n,count;
+    printf("Enter any number ");
+    scanf("%d",&n);
+    while(n>0)
+    {
+        count++;
+        if(count<=5)
+        {
+            n++;
+            printf("The Next 5 numbers are: %d\n",n);
+        }
+    }
+    return 0;
+}
